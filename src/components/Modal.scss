@@ -1,0 +1,88 @@
+.Modal {
+  width: 90vw;
+  height: 95vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 5px;
+  z-index: 100;
+  padding: 3rem 2rem 0;
+}
+
+.Modal-inside {
+  height: 100%;
+  overflow: auto;
+}
+
+.Modal-description {
+  @media (max-width: 767px) {
+    height: auto;
+    display: block;
+  }
+  margin: 0 20px;
+  display: flex;
+}
+
+.Modal-prop {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.Modal-descr {
+  display: block;
+}
+
+.Modal-image {
+  @media (max-width: 767px) {
+    height: 100px;
+    float: none;
+  }
+  display: inline-block;
+  height: 300px;
+  margin-right: 4rem;
+}
+
+.Modal-header {
+  width: 100%;
+  
+  &--h2 {
+    display: block;
+    flex: 0 1 100%;
+    font-weight: 700;
+  }
+}
+
+.Modal-similar {
+  @media (max-width: 767px) {
+    display: block;
+    height: auto;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem auto 0;
+  justify-content: center;
+}
+
+.Modal-close {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+.Overlay {
+  z-index: 100;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(156, 153, 151, 0.7);
+}

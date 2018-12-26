@@ -1,0 +1,25 @@
+.LinkContainer {
+  @media (max-width: 767px) {
+    display: block;
+  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 80rem;
+  margin: auto;
+  flex: 1 1 auto;
+}
+
+.NoMore {
+  text-align: center;
+}
+
+.Extra {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 1rem;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
