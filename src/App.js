@@ -33,6 +33,14 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               punkapi
+            </a>{' '}
+            | made by{' '}
+            <a
+              href="https://codebooyah.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              patmaz
             </a>
           </h2>
         </header>
